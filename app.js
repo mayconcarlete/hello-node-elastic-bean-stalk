@@ -5,7 +5,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.json({message:'hello docker world'})
+    res.json({message:'hello docker ECS'})
 })
 
 const PORT = process.env.PORT || 3000
